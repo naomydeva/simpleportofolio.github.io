@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Portfolio</title>
+
+  <!-- <link rel="stylesheet" href="/assets/vendor/bootstrap-5.2.3-dist/css/bootstrap.min.css" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .nav-link.active {
+      color: #0d6efd !important;
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav-scroll">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="nav-scroll">
+    <div class="container">
+      <a href="#" class="navbar-brand">Portfolio</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto fw-bold">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="d-flex min-vh-100 flex-column justify-content-center align-items-center"
+    style="background-image: url('/assets/img/hero-bg.jpg')">
+    <h1 class="fw-bolder display-1 mb-3">Naomi Deva</h1>
+    <h6 class="fs-3 text-secondary text-capitalize mb-4">
+      UI / UX Designer
+    </h6>
+    <a href="#" class="btn btn-primary rounded-pill">About Me</a>
+  </section>
+
+  <section id="about" class="container py-5">
+    <div class="text-center py-5">
+      <h2 class="fw-bolder text-uppercase">about</h2>
+      <p>
+        Studying at IT Del. Experts in the field of Designers who are in
+        Indonesia.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="/assets/img/abouts.jpg" alt="" class="img-fluid" />
+      </div>
+      <div class="col-md-7 offset-lg-1">
+        <p class="lh-lg">
+          Hello, I am a Designer, I live in Tarutung, Indonesia. I have completed
+          several projects regarding UI/UX. For 2 years I have been learning about
+          Website Design.
+        <p><b>Birthday: </b>April 18, 2003</p>
+        <p><b>Age : </b>20</p>
+        <p><b>Address : </b>Tarutung, North Sumatra, Indonesia</p>
+        <p><b>Email : </b>naomi.deva21@gmail.com</p>
+        <p><b>Phone : </b>+62 822 689 733 74</p>
+        <p><b>Study : </b>Institute Technology Del</p>
+        </p>
+        <p class="fw-bold fs-4">My Skills:</p>
+        <div class="mb-2">
+          <p class="m-0">HTML:</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" style="width: 50%">
+              50%
+            </div>
+          </div>
+        </div>
+        <div class="mb-2">
+          <p class="m-0">CSS:</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-info" style="width: 40%">
+              40%
+            </div>
+          </div>
+        </div>
+        <div class="mb-2">
+          <p class="m-0">Javascript:</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-warning" style="width: 30%">
+              30%
+            </div>
+          </div>
+        </div>
+        <div class="mb-2">
+          <p class="m-0">Bootstrap 5:</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-danger" style="width: 65%">
+              65%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="bg-dark py-5">
+    <div class="container">
+      <div class="text-center py-5 text-white">
+        <h2 class="fw-bolder text-uppercase">My Portfolio</h2>
+        <p>
+          This is my portfolio that contains the results of my project design with my teammates.
+        </p>
+      </div>
+      <div class="row pb-5">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <img src="/assets/img/login.png" alt="" class="img-fluid img-thumbnail" />
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <img src="/assets/img/register.png" alt="" class="img-fluid img-thumbnail" />
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <img src="/assets/img/beranda.png" alt="" class="img-fluid img-thumbnail" style="padding-bottom: 59px;" />
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <img src="/assets/img/tambah paket.png" alt="" class="img-fluid img-thumbnail" />
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <img src="/assets/img/ubah status.png" alt="" class="img-fluid img-thumbnail" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="container py-5">
+    <div class="text-center py-5">
+      <h2 class="fw-bolder text-uppercase">My Blog</h2>
+      <p>
+        Some journalingit initg about my daily moments in September.
+      </p>
+    </div>
+    <div class="row pb-5">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="/assets/img/perwalian.jpeg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title text-center py-2">
+              Guardianship 13 IF1.
+            </h5>
+            <p class="card-text">
+              The guardianship of class 13 IF1 where, precisely on September 3, 2023 we held a meeting with the guardian lecturer, 
+              where at that meeting we discussed the Credit Unit System (SKS), what courses were conditional, MBKM, TOEFL, 
+              good and bad experiences during the last semester.
+            </p>
+            <a href="#" class="btn btn-light"  style="margin-bottom: 47px;">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="/assets/img/pengukuhan.jpeg" alt="" class="card-img-top" style="height: 232px;"/>
+          <div class="card-body">
+            <h5 class="card-title text-center py-2">
+              Inauguration
+            </h5>
+            <p class="card-text">
+              On Saturday, September 13, 2023, where we inaugurated the 23rd batch, followed by various events such as 
+              introducing the Informatics study association management, introducing the Division, introducing the entire 23rd batch, 
+              followed by a public lecture, and there was also a shering session, and closed with prayer and distribution of snacks.
+            </p>
+            <a href="#" class="btn btn-light" style="margin-bottom: 24px;">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="/assets/img/himasti.jpeg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title text-center py-2">
+              HIMASTI
+            </h5>
+            <p class="card-text">
+              On September 23, 2023, the Informatics Undergraduate Student Association carried out a procession 
+              of graduating students of class 19, where there were many series of events carried out by the Himasti 
+              association from the beginning of picking up graduates with a procession to arrive on campus, followed by a perprodi 
+              event conducted by each study program.
+            </p>
+            <a href="#" class="btn btn-light">Read more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-dark py-5">
+    <div class="container">
+      <div class="text-center py-5 text-white">
+        <h2 class="fw-bolder text-uppercase">Contact Me</h2>
+        <p>If you have any suggestions and feedback please contact below.</p>
+      </div>
+      <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
+        <form action="" class="text-white">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label"> Your Email</label>
+            <input type="email" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label"> Your Subject</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label"> Your Message</label>
+            <textarea name="message" cols="30" rows="10" class="form-control"></textarea>
+          </div>
+          <div class="text-end">
+            <button type="submit" class="btn btn-primary btn-lg">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-light">
+    <div class="container text-center">
+      <p class="mb-0 py-3 fs-5">
+        All rights reserved by <strong>Pabwe</strong> &copy; 2023
+      </p>
+    </div>
+  </footer>
+
+  <!-- <script src="/assets/vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
